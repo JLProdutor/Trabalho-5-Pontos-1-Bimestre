@@ -152,6 +152,11 @@ document.write("Questão 9")
 
 var inteiro = 9;
 
+for(i = 0; i >= 0 && i <= 10; i++){
+    document.write(i);
+    document.write("<br/>")
+}
+
 if(inteiro >= 1 && inteiro <= 10){
     document.write("Tabuada do "+inteiro+"<br>")
     document.write(inteiro+" x 1 = "+inteiro * 1+"<br>")
